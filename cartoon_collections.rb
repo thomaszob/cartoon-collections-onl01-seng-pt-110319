@@ -25,7 +25,7 @@ def long_planeteer_calls(array)# code an argument here
   block_return_values = []
   counter = 0
   while counter < array.length 
-    if array.length < 4
+    if array[counter].length < 4
       block_return_values << true
     end 
     counter += 1 
